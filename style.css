@@ -1,0 +1,44 @@
+body{
+    font-size: 16pt;
+}
+table{
+    text-align: center;
+    margin: 10px auto;
+}
+table thead{
+    background-color: black;
+    color: white;
+}
+table tbody tr:hover{
+    background-color: #dcd9d9;
+}
+.btn{
+    background-color: #6bff6b;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+.input {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: black;
+}
+.input:focus {
+    border-color: green
+}
+.btn:hover{
+    background-color: #4bad4b;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+.col{
+    margin: 10px 20px;
+}
+.hidden{
+    display: none;
+}

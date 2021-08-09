@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project: Library</title>
+</head>
+<body>
+<button id="newBook" class="btn">New Book</button>
+<div id="form" class="hidden">
+    <div class="row">
+        <div class="col">
+        <label for="bookTitle">Title of the Book:</label>
+        </div>
+        <div class="col">
+        <input type="text" id="bookTitle" class="input" placeholder="Book title">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+        <label for="bookAuthor">Author of the Book:</label>
+        </div>
+        <div class="col">
+        <input type="text" id="bookAuthor" class="input" placeholder="Book Author">
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col">
+        <label for="bookPages">Number of Pages:</label>
+        </div>
+        <div class="col">
+        <input type="text" id="bookPages" class="input" placeholder="Book Pages">
+        </div>
+
+    </div>
+    <div class="row">
+    <label for="bookRead">Have you read it?</label>
+    <input type="checkbox" id="bookRead">
+    </div>
+    <div class="row">
+        <button id="addBook" class="btn">Add</button>
+    </div>
+</div>
+<table>
+    <thead>
+    <tr>
+        <th>Book's Title</th>
+        <th>Book's Author</th>
+        <th>Number of Pages</th>
+        <th>Read</th>
+        <th>Edit</th>
+    </tr>
+    </thead>
+    <tbody id="tableBody"></tbody>
+</table>
+<script src="script.js"></script>
+</body>
+</html>
